@@ -58,3 +58,8 @@ en:
         fields:
           id: Image id
           filepath: Image file path
+      list_type:
+        fields:
+          id: List id
+          name: Name
+          items: List's items
