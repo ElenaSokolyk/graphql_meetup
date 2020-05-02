@@ -5,7 +5,7 @@ module Movie::Operation
     step :set_result
 
     def set_result(ctx, **)
-      ctx['result'] = ::Movie.all
+      ctx['result'] = ::Movie.where('title ILIKE ?', "%#{ctx[:params][:filter]}%")
     end
   end
 end
