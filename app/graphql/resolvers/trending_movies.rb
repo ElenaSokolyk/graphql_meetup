@@ -5,7 +5,7 @@ module Resolvers
     type [Types::MovieType], null: false
 
     def resolve
-      match_operation ::Movie::Operation::Index.call(params: {})
+      match_operation ::Movie::Operation::Index.call
     end
   end
 end
