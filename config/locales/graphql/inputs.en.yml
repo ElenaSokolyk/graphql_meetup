@@ -15,3 +15,7 @@ en:
           args:
             email: User's account email
             password: User's account password
+        create_list_input:
+          desc: Create list
+          args:
+            name: List's name
