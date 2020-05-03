@@ -28,3 +28,8 @@ en:
           args:
             movie_id: Movie id
             list_id: List id
+        remove_list_item_input:
+          desc: Remove list item
+          args:
+            movie_id: Movie id
+            list_id: List id

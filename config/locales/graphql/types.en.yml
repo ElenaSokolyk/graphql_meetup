@@ -67,3 +67,7 @@ en:
         desc: Delete list
         fields:
           id: List id
+      user_remove_list_item_type:
+        desc: Remove list item
+        fields:
+          removed_movie_id: Removed movie id

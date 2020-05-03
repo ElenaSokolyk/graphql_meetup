@@ -19,6 +19,8 @@ en:
           decs: Create list
         add_list_item:
           desc: Add list item
+        remove_list_item:
+          desc: Remove list item
       auth:
         refresh_token:
           desc: Updating current access token with refresh token
