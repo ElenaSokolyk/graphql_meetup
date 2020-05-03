@@ -19,3 +19,7 @@ en:
           desc: Create list
           args:
             name: List's name
+        delete_list_input:
+          desc: Delete list
+          args:
+            id: List's id

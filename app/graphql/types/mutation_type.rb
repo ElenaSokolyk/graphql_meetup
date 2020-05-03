@@ -6,6 +6,7 @@ module Types
     field :user_sign_out, mutation: Mutations::User::SignOut
     field :user_sign_in, mutation: Mutations::User::SignIn
     field :user_create_list, mutation: Mutations::User::CreateList
+    field :user_delete_list, mutation: Mutations::User::DeleteList
 
     field :refresh_token, mutation: Mutations::Auth::RefreshToken
   end

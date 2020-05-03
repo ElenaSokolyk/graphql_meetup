@@ -63,3 +63,7 @@ en:
           id: List id
           name: Name
           items: List's items
+      user_delete_list_type:
+        desc: Delete list
+        fields:
+          id: List id
