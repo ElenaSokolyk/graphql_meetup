@@ -17,6 +17,8 @@ en:
           desc: Sign in a user
         create_list:
           decs: Create list
+        add_list_item:
+          desc: Add list item
       auth:
         refresh_token:
           desc: Updating current access token with refresh token

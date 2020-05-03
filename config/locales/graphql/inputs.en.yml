@@ -23,3 +23,8 @@ en:
           desc: Delete list
           args:
             id: List's id
+        add_list_item_input:
+          desc: Add list item
+          args:
+            movie_id: Movie id
+            list_id: List id
