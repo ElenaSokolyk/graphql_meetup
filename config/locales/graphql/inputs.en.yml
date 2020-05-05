@@ -37,3 +37,7 @@ en:
           desc: Add favorite movie
           args:
             movie_id: Movie id
+        remove_favorite_movie_input:
+          desc: Remove favorite movie
+          args:
+            movie_id: Movie id
