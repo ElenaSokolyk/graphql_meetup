@@ -21,6 +21,8 @@ en:
           desc: Add list item
         remove_list_item:
           desc: Remove list item
+        add_favorite_movie:
+          decs: Add favorite movie
       auth:
         refresh_token:
           desc: Updating current access token with refresh token

@@ -33,3 +33,7 @@ en:
           args:
             movie_id: Movie id
             list_id: List id
+        add_favorite_movie_input:
+          desc: Add favorite movie
+          args:
+            movie_id: Movie id

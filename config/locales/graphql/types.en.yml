@@ -71,3 +71,9 @@ en:
         desc: Remove list item
         fields:
           removed_movie_id: Removed movie id
+      user_add_favorite_movie_type:
+        desc: Add favorite movie
+        fields:
+          id: Movie id
+          title: Movie title
+          is_favorite: Is favorite
