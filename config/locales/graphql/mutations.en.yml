@@ -27,6 +27,8 @@ en:
           desc: Remove favorite movie
         add_watchlist_movie:
           desc: Add watchlist movie
+        remove_watchlist_movie:
+          desc: Remove watchlist movie
       auth:
         refresh_token:
           desc: Updating current access token with refresh token

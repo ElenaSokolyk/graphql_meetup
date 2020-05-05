@@ -45,3 +45,7 @@ en:
           desc: Add watchlist movie
           args:
             movie_id: Movie id
+        remove_watchlist_movie_input:
+          desc: Remove watchlist movie
+          args:
+            movie_id: Movie id
