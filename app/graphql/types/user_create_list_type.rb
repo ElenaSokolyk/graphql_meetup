@@ -15,8 +15,12 @@ module Types
           description: I18n.t("#{I18N_PATH}.fields.id")
 
     field :lists,
-          [Types::ListType],
+          Types::ListsCollectionType,
           null: true,
           description: I18n.t("#{I18N_PATH}.fields.lists")
+
+    def lists
+      OpenStruct.new(nodes: object.lists)
+    end
   end
 end

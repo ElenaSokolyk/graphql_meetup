@@ -83,3 +83,7 @@ en:
           id: Movie id
           title: Movie title
           is_watchlist: Is watchlist
+      lists_collection_type:
+        desc: Lists collection
+        fields:
+          modes: Nodes
