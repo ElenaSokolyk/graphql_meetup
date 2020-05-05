@@ -77,3 +77,9 @@ en:
           id: Movie id
           title: Movie title
           is_favorite: Is favorite
+      user_add_watchlist_movie_type:
+        desc: Add watchlist movie
+        fields:
+          id: Movie id
+          title: Movie title
+          is_watchlist: Is watchlist

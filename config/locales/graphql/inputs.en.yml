@@ -41,3 +41,7 @@ en:
           desc: Remove favorite movie
           args:
             movie_id: Movie id
+        add_watchlist_movie_input:
+          desc: Add watchlist movie
+          args:
+            movie_id: Movie id
