@@ -16,7 +16,7 @@ module Types
 
     field :items,
           [Types::MovieType],
-          null: true,
+          null: false,
           description: I18n.t("#{I18N_PATH}.fields.items")
 
     def items

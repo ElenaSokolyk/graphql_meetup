@@ -3,7 +3,7 @@
 module Mutations
   module User
     class AddWatchlistMovie < AuthBase
-      type Types::UserAddWatchlistMovieType
+      type Types::MovieType
 
       description I18n.t('graphql.mutations.user.add_watchlist_movie.desc')
 

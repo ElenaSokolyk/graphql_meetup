@@ -10,7 +10,7 @@ module Types
       description I18n.t("#{I18N_PATH}.desc")
 
       argument :movie_id,
-               Int,
+               ID,
                required: true,
                description: I18n.t("#{I18N_PATH}.args.movie_id")
     end

@@ -3,7 +3,7 @@
 module Mutations
   module User
     class AddFavoriteMovie < AuthBase
-      type Types::UserAddFavoriteMovieType
+      type Types::MovieType
 
       description I18n.t('graphql.mutations.user.add_favorite_movie.desc')
 

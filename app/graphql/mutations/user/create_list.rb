@@ -3,7 +3,7 @@
 module Mutations
   module User
     class CreateList < AuthBase
-      type Types::UserCreateListType
+      type Types::UserAccountType
 
       description I18n.t('graphql.mutations.user.create_list.desc')
 

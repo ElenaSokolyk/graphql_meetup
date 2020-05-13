@@ -19,6 +19,11 @@ module Types
           null: true,
           description: I18n.t("#{I18N_PATH}.fields.user_profile")
 
+    field :lists,
+          resolver: Resolvers::Lists,
+          connection: true,
+          description: I18n.t("#{I18N_PATH}.fields.lists")
+
     # Home task
     # field :lists
     # field :watch_list_movies
