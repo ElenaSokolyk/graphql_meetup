@@ -53,8 +53,27 @@ en:
           poster: Movie's poster image
           revenue: Movie's revenue
           runtime: Movie's runtime in seconds
+          is_favorite: Is favorite
+          is_watchlist: Is watchlist
       image_type:
         desc: Image type
         fields:
           id: Image id
           filepath: Image file path
+      list_type:
+        fields:
+          id: List id
+          name: Name
+          items: List's items
+      user_delete_list_type:
+        desc: Delete list
+        fields:
+          id: List id
+      user_remove_list_item_type:
+        desc: Remove list item
+        fields:
+          removed_movie_id: Removed movie id
+      lists_collection_type:
+        desc: Lists collection
+        fields:
+          modes: Nodes

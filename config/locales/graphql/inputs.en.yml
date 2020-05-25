@@ -15,3 +15,37 @@ en:
           args:
             email: User's account email
             password: User's account password
+        create_list_input:
+          desc: Create list
+          args:
+            name: List's name
+        delete_list_input:
+          desc: Delete list
+          args:
+            id: List's id
+        add_list_item_input:
+          desc: Add list item
+          args:
+            movie_id: Movie id
+            list_id: List id
+        remove_list_item_input:
+          desc: Remove list item
+          args:
+            movie_id: Movie id
+            list_id: List id
+        add_favorite_movie_input:
+          desc: Add favorite movie
+          args:
+            movie_id: Movie id
+        remove_favorite_movie_input:
+          desc: Remove favorite movie
+          args:
+            movie_id: Movie id
+        add_watchlist_movie_input:
+          desc: Add watchlist movie
+          args:
+            movie_id: Movie id
+        remove_watchlist_movie_input:
+          desc: Remove watchlist movie
+          args:
+            movie_id: Movie id

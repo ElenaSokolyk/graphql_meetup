@@ -15,6 +15,20 @@ en:
             completed: will return true if the user log out
         sign_in:
           desc: Sign in a user
+        create_list:
+          decs: Create list
+        add_list_item:
+          desc: Add list item
+        remove_list_item:
+          desc: Remove list item
+        add_favorite_movie:
+          decs: Add favorite movie
+        remove_favorite_movie:
+          desc: Remove favorite movie
+        add_watchlist_movie:
+          desc: Add watchlist movie
+        remove_watchlist_movie:
+          desc: Remove watchlist movie
       auth:
         refresh_token:
           desc: Updating current access token with refresh token
